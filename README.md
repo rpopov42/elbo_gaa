@@ -1,5 +1,8 @@
 # elbo_gaa
-Supporting code for the paper "Analytical Approximation of the ELBO Gradient in the Context of the Clutter Problem". The code is used to generate all figures in the paper and run the comparative tests. 
+Supporting code for the paper "Analytical Approximation of the ELBO Gradient in the Context of the Clutter Problem". The code is used to generate all figures in the paper and run the comparative tests.
+
+[ResearchGate page](https://www.researchgate.net/publication/379823643_Analytical_Approximation_of_the_ELBO_Gradient_in_the_Context_of_the_Clutter_Problem) for the paper.
+
 ## Abstract
 We propose an analytical solution for approximating the gradient of the Evidence Lower Bound (ELBO) in variational inference problems where the statistical model is a Bayesian network consisting of observations drawn from a mixture of a Gaussian distribution embedded in unrelated clutter, known as the clutter problem. The method employs the reparameterization trick to move the gradient operator inside the expectation and relies on the assumption that, because the likelihood factorizes over the observed data, the variational distribution is generally more compactly supported than the Gaussian distribution in the likelihood factors. This allows efficient local approximation of the individual likelihood factors, which leads to an analytical solution for the integral defining the gradient expectation. We integrate the proposed gradient approximation as the expectation step in an EM (Expectation Maximization) algorithm for maximizing ELBO and test against classical deterministic approaches in Bayesian inference, such as the Laplace approximation, Expectation Propagation and Mean-Field Variational Inference. The proposed method demonstrates good accuracy and rate of convergence together with linear computational complexity.
 ## Code Organization
