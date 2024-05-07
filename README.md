@@ -11,12 +11,17 @@ The code environment is GNU Octave but it would also run in Matlab subject to mi
  - gen_fig2.m - generates figure 2
  - gen_fig3.m - generates figure 3
  - gen_fig4.m - generates figure 4
+ - gen_fig5.m - generates figure 5
  - elbo_numerical.m - a function that numerically calculates the value of ELBO
  - elbo_numerical_em.m - implements a numerical maximisation of ELBO as a function
  - laplace.m - implements the Laplace approximation as a function
+ - laplace_serial.m - implements the Laplace approximation as a function with serial code
  - ep_serial.m - implements expectation propagation as a function
  - elbo_mean_field.m - implements the mean field approximation as a function
+ - elbo_mean_field_serial.m - implements the mean field approximation as a function with serial code
  - elbo_gaa_em.m - implements the proposed algorithm as a function
+ - elbo_gaa_em_serial.m - implements the proposed algorithm as a function with serial code
+ - get_rand_u0.m - stores pre-generated random numbers for reproducibility of test results from gen_fig5.m
 
 The code is meant primarily for research purposes and has not been optimised or tested for numerical stability.
 Use it with caution!
